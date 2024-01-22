@@ -1,0 +1,89 @@
+
+.pad {
+    @apply sm:p-16 p-8 px-6 py-12;
+}
+
+.padY {
+    @apply sm:py-16 py-8 py-12;
+}
+.padX {
+    @apply sm:px-16 px-6;
+}
+
+.padT {
+    @apply sm:pt-16 pt-8 pt-12;
+}
+.padB {
+    @apply sm:pb-16 pb-8 pb-12;
+}
+
+.flexStart {
+    @apply flex justify-start items-start;
+}
+
+.flexCenter {
+    @apply flex justify-center items-center;
+}
+
+.flexEnd {
+    @apply flex justify-end items-end;
+}
+.innerWidth {
+    @apply 2xl:max-w-[1280px] w-full;
+}
+
+.interWidth {
+    @apply lg:w-[80%] w-[100%];
+}
+
+.navPadding {
+    @apply pt-[98px];
+}
+
+.heroHeading {
+    @apply font-semibold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white;
+}
+.heroDText {
+    @apply md:w-[212px] sm:w-[80px] w-[60px] md:h-[108px] sm:h-[48px] h-[38px] md:border-[18px] border-[9px] rounded-r-[50px] border-white sm:mx-2 mx-[6px];
+}
+
+
+
+/* navbar section */
+
+.navBackground {
+    background-image: linear-gradient(
+      270deg,
+      hsl(295deg 76% 51%) 0%,
+      hsl(284deg 70% 73%) 26%,
+      hsl(257deg 70% 86%) 39%,
+      hsl(202deg 92% 90%) 50%,
+      hsl(215deg 77% 81%) 61%,
+      hsl(221deg 73% 70%) 74%,
+      hsl(220deg 76% 51%) 100%
+    );
+    filter: blur(120px);
+  }
+
+/* hero section */
+
+.heroBackground {
+    background: linear-gradient(
+      97.86deg,
+      #8320e6 0%,
+      #9134c7 53.65%,
+      #a100b9 100%
+    );
+  }
+
+/* about section */
+
+  .aboutBackground {
+    height: 438px;
+    width: 200px;
+    background: #7aebfb;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    filter: blur(190px);
+  }
